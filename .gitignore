@@ -7,27 +7,33 @@ x64/
 x86/
 [Aa]rtifacts/
 
-# Visual Studio / VS Code
+# Visual Studio
 .vs/
-.vscode/
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
 
+# VS Code
+.vscode/
+
+# JetBrains Rider / ReSharper
+.idea/
+*.iml
+*.ipr
+*.iws
+
 # NuGet
 *.nupkg
 *.snupkg
 packages/
-*.nuspec
-project.lock.json
-*.psess
 
 # ASP.NET / .NET
-appsettings.Development.json
 *.log
 *.tmp
 *.cache
+
+# Local database files
 *.db
 *.sqlite
 *.pid
@@ -37,12 +43,6 @@ TestResults/
 coverage/
 *.coverage
 *.coveragexml
-
-# Rider / JetBrains
-.idea/
-*.iml
-*.ipr
-*.iws
 
 # OS files
 .DS_Store
