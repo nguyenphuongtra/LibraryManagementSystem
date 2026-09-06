@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace LibraryManagementSystem.DTOs.Users
+namespace LibraryManagementSystem_BE.DTOs.Users
 {
     public class UserChangePasswordDto
     {

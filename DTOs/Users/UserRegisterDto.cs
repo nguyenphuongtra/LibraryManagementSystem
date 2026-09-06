@@ -1,8 +1,8 @@
 using System;
 using System.ComponentModel.DataAnnotations;
-using LibraryManagementSystem.Models;
+using LibraryManagementSystem_BE.Models;
 
-namespace LibraryManagementSystem.DTOs.Users
+namespace LibraryManagementSystem_BE.DTOs.Users
 {
     public class UserRegisterDto
     {
